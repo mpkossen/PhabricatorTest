@@ -1,3 +1,5 @@
 <?php
 
-echo 'You have reached the core file!';
+require_once(__DIR__ . '/Core.php');
+
+Core::sayHello();
